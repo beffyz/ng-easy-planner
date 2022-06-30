@@ -1,0 +1,6 @@
+<div class="planner-form">
+  <form class="planner-form__form" [formGroup]="plannerForm">
+    <input placeholder="Enter task..." formControlName="task" type="text" />
+    <button type="button" (click)="addTask()">Add Task</button>
+  </form>
+</div>

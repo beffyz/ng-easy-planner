@@ -1,0 +1,7 @@
+<section class="planner">
+  <div class="container center-md center-xs">
+    <h1>Plan your day!</h1>
+    <app-planner-form (addTaskEvent)="addTask($event)"></app-planner-form>
+    <app-planner-list [tasks]="tasks" (deleteTaskEvent)='deleteTask($event)'></app-planner-list>
+  </div>
+</section>
